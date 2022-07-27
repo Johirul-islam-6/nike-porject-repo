@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100&family=Anek+Odia:wght@100;600&family=Beau+Rivage&family=Kanit:ital,wght@0,500;0,600;1,500&family=Oswald:wght@400;500;600;700&family=PT+Sans+Narrow:wght@700&family=Poppins&display=swap");
+
+/* font-family: 'Anek Gujarati', sans-serif;
+font-family: 'Anek Odia', sans-serif;
+font-family: 'Beau Rivage', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif; */
+/* -----------------google font---------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/banner-bg.svg");
+  background-position: center center;
+  background-size: cover;
+}
+.navbar {
+  background-color: rgba(218, 218, 218, 0.701);
+  height: 4rem;
+  border-bottom: 0.5px solid rgba(131, 129, 129, 0.553);
+  width: 100%;
+  align-items: center !important;
+}
+.navbar .navbar-toggler-icon {
+  color: rgb(0, 0, 0);
+  margin-top: 6px;
+}
+.navbar-toggler{
+  margin-bottom: 20px !important;
+  padding: 1px 10px;
+}
+.navbar-toggler:focus {
+  box-shadow: 0.2px  #3b3b3bd0 !important;
+}
+
+.navbar .container img {
+  width: 100% !important;
+}
+.navbar-brand {
+  width: 280px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+header ul li {
+  margin: 0 5px;
+}
+header ul li a {
+  font-size: 19px;
+  font-weight: 600;
+  color: #3d3d3d !important;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+header ul li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+header .container h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+header .container p {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: rgb(130, 130, 130);
+}
+header .container .btn {
+  padding: 15px 20px;
+  background-color: rgb(51, 51, 230);
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  width: 180px;
+}
+header .container .btn a {
+  color: #ffff;
+  font-size: 18px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-decoration: none;
+}
+header .container .btn:hover {
+  background-color: rgba(51, 51, 230, 0.747);
+}
+/* =========================responsived page----------------------- */
+
+@media only screen and (max-width: 599px) {
+  .section-start {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .navbar {
+    background-color: rgba(218, 218, 218, 0.701);
+    height: 4rem;
+    border-bottom: 0.5px solid rgba(131, 129, 129, 0.553);
+    width: 100%;
+    align-items: center !important;
+  }
+  
+
+  header .container h1 {
+    font-size: 50px;
+  }
+  header .container {
+    font-size: 15px;
+  }
+  header .container .all-text h1 {
+    justify-content: center;
+    display: flex;
+  }
+  header .container .all-text p {
+    justify-content: center;
+    display: flex;
+  }
+  header .container .all-text .btn {
+    margin: 0 auto !important;
+    display: flex;
+  }
+  header .container .all-text .btn a {
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .navbar-brand {
+    width: 210px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    height: 150%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center !important;
+  }
+  .navbar-nav {
+    background-color: rgba(56, 56, 56, 0.806) !important;
+    height: 80%;
+    width: 100%;
+    align-items: center !important;
+  }
+  .header ul li{
+    padding-top: 30px;
+  }
+
+  header ul li {
+    margin: 0 5px;
+  }
+  header ul li a {
+    font-size: 19px;
+    font-weight: 600;
+    color: #ffffff !important;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  header ul li a:hover {
+    background-color: unset !important;
+    color: #f1af1e !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 299px) {
+  .section01 .container .card {
+    border-radius: 15px;
+    width: 18rem !important;
+    
+  }
+  .navbar-brand {
+    width: 180px;
+  }
+}
+/* ==============================section-1 shoes to start--------------------------- */
+.section01 {
+  height: auto !important;
+  width: 100%;
+}
+
+.section01 h1{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "oswold", sans-serif;
+    color: rgb(41, 41, 41);
+}
+.section01 .container .card {
+  border-radius: 15px;
+  width: 20rem;
+  box-shadow: 5px 5px 10px #aaaaaabb;
+}
+.section01 .container .card img {
+  width: auto;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+}
+.section01 .container .btn-betwen {
+  justify-content: space-between;
+  display: flex;
+}
+.section01 .container .card h2 {
+  color: #f87000;
+  font-weight: 750;
+  font-family: "Kanit", sans-serif;
+}
+.section01 .container .card h3 {
+  font-family: "Oswald", sans-serif;
+  color: rgb(77, 77, 77);
+}
+.section01 .container .card p {
+  font-family: "Oswald", sans-serif;
+  color: rgb(146, 143, 143);
+}
+.section01 .container .card .btn {
+  padding: 1px 18px;
+  background-color: rgb(51, 51, 230);
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.section01 .container .card .btn a {
+  color: #ffff;
+  font-size: 16px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-decoration: none;
+}
+.section01 .container .card .btn:hover {
+  background-color: rgba(51, 51, 230, 0.769);
+}
+/* ========================shop-to start------------------------------------ */
+#shop{
+
+  border-radius: 15px;
+  display: flex !important;
+  height: 8rem;
+  align-items: center;
+  margin: 8px 0;
+  box-shadow: 5px 5px 10px #aaaaaabb;
+  
+}
+#shop img{
+  width: 7rem;
+  height: 6rem;
+}
+#shop .small-text{
+  padding: 25px 0;
+}
+@media only and (max-width: 400px){
+  #shop .small-text h1{
+   font-size: 15px;
+  }
+  #shop .small-text{
+    padding: 5px 0;
+  }
+  
+}
+@media only screen and (min-width: 200px) and (max-width: 406px) {
+  #shop .small-text h5{
+    font-size: 18px !important;
+    color: rgb(65, 65, 65);
+    padding: 5px 0!important;
+   }
+   #shop .small-text p{
+    font-size: 15px !important;
+    color: rgb(106, 105, 105);
+   }
+   #shop{
+    height: 10rem;
+    margin: 0 !important;
+    width: 100% !important;
+  
+   }
+   #shop img{
+    width: 5rem;
+    height: 4rem;
+  }
+}
+@media screen and (max-width: 577px){
+
+}
+
+/* =========================footer start========================= */
+footer{
+  width: 100%;
+  height: auto !important;
+  background-color: #f3f2f2f6;
+  padding: 10px 10%;
+  
+}
+footer h4{
+  color: rgb(95, 95, 95);
+  font-size: 25px;
+  font-weight: 900;
+  padding: 30px 0;
+  font-family: 'Beau Rivage', cursive;
+}
